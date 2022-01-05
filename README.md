@@ -38,9 +38,12 @@ V.	Applied different filtering techniques to improve the image quality
 VI.	Observed the shape of each image and found all the images of RGB with different shape
 VII.	I have converted all the images into gray scale image of size (128, 128, 1).
 ## Exploratory Data Analysis
+### Original MRI images
 ![image](https://user-images.githubusercontent.com/79649430/148147248-7077b6cf-0b53-4596-a3fe-c18ffbf2a6ba.png)
 ![image](https://user-images.githubusercontent.com/79649430/148147263-d785dab2-d64b-4792-953e-0583810bb776.png)
 ![image](https://user-images.githubusercontent.com/79649430/148147286-31b3235c-33f9-466b-8f61-1a6f9125912b.png)
 ![image](https://user-images.githubusercontent.com/79649430/148147299-28f31558-7633-48e3-af83-5872ae8092b6.png)
+### Preprocessed MRI images
+![1](https://user-images.githubusercontent.com/79649430/148147448-7653e858-ac02-42dc-937b-58a296dac1f5.JPG)
 
 
