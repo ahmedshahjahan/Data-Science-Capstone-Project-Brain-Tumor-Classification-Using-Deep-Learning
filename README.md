@@ -1,1 +1,1 @@
-# Data-Science-Capstone-Project-Three-Brain-Tumor-Classification-Using-Deep-Learning
+# BRAIN TUMOR CLASSIFICATION AND PREDICTION USING CONVOLUTIONAL NEURAL NETWORKS
