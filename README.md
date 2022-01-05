@@ -28,6 +28,19 @@ Pituitary tumors are abnormal growths that develop in your pituitary gland. Some
 
 ### No Tumor
 The MRI image does not contain any kinds of tumor cell.
-![image](https://user-images.githubusercontent.com/79649430/148147027-6dcc66ac-52da-4197-bf09-00a97eea9000.png)![image](https://user-images.githubusercontent.com/79649430/148147044-cdf0634f-ec17-42f7-af40-0fe2fe69a3ec.png)
-![image](https://user-images.githubusercontent.com/79649430/148147064-af83be28-94f5-4572-8b9e-94e5df31dcd4.png)
+## Data Wrangling
+The steps I have taken to wrangle the dataset is described below:
+I.	I have Imported all necessary modules and libraries
+II.	Observed all the MRI images in training, validation, and test set with their respective file format.
+III.	Observed whether the dataset contain RGB or grayscale images
+IV.	Counted the number of images of each set
+V.	Applied different filtering techniques to improve the image quality
+VI.	Observed the shape of each image and found all the images of RGB with different shape
+VII.	I have converted all the images into gray scale image of size (128, 128, 1).
+## Exploratory Data Analysis
+![image](https://user-images.githubusercontent.com/79649430/148147248-7077b6cf-0b53-4596-a3fe-c18ffbf2a6ba.png)
+![image](https://user-images.githubusercontent.com/79649430/148147263-d785dab2-d64b-4792-953e-0583810bb776.png)
+![image](https://user-images.githubusercontent.com/79649430/148147286-31b3235c-33f9-466b-8f61-1a6f9125912b.png)
+![image](https://user-images.githubusercontent.com/79649430/148147299-28f31558-7633-48e3-af83-5872ae8092b6.png)
+
 
