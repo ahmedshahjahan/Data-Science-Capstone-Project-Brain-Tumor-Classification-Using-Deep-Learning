@@ -28,3 +28,6 @@ Pituitary tumors are abnormal growths that develop in your pituitary gland. Some
 
 ### No Tumor
 The MRI image does not contain any kinds of tumor cell.
+![image](https://user-images.githubusercontent.com/79649430/148147027-6dcc66ac-52da-4197-bf09-00a97eea9000.png)![image](https://user-images.githubusercontent.com/79649430/148147044-cdf0634f-ec17-42f7-af40-0fe2fe69a3ec.png)
+![image](https://user-images.githubusercontent.com/79649430/148147064-af83be28-94f5-4572-8b9e-94e5df31dcd4.png)
+
