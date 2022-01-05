@@ -59,44 +59,43 @@ IV.	Figure below shows the count plot of the final training, validation, and tes
 To classify and detect brain tumor, I have implemented and trained several models and evaluated them by using test data to measure models performance.
 
 ### Model 1: Simple neural network with only dense layers
-
 #### Architecture of Model 1:
 The model 1 contains an input layer, six Dense layers, and one output layer. I have used ReLU as an activation function for the Dense layers and Softmax as an activation function for the output layer for multiclass classification and Adam as an optimizer. 
 ![image](https://user-images.githubusercontent.com/79649430/148147666-c6575f98-ce93-40f6-97db-d33a9d97055b.png)
-
 #### Training Progress for Model 1:
 ![image](https://user-images.githubusercontent.com/79649430/148148121-7a83134b-dabb-41e4-8c65-f5ab0306f708.png)
 #### Evaluation Results of Model 1:
+![1](https://user-images.githubusercontent.com/79649430/148149499-7e05c426-6901-492f-ba1e-e25a2e6be283.JPG)
 ![image](https://user-images.githubusercontent.com/79649430/148148249-2dcf3706-1b3a-4f9a-9010-6cbf2433b276.png)
 
 ### Model 2: Convolutional neural network with two Conv2D layers
 #### Architecture of Model 2:
 Model 2 contains an input layer, two Conv2D layers with MaxPolling2D as a pooling layer, one Dense layer, and an output layer. Similar to model 1, I have used ReLU as an activation function for the hidden layers, Softmax as an activation function for the output layer, and Adam as an optimizer again. I have not used any regularization in model 2. 
 ![image](https://user-images.githubusercontent.com/79649430/148148377-9013f7d0-9486-4eec-893d-87e1a8d863c3.png)
-
 #### Training Progress of Model 2:
 ![image](https://user-images.githubusercontent.com/79649430/148148400-1474fac2-292f-462e-ba3a-6934feb7b496.png)
 #### Evaluation Results of Model 2:
+![2](https://user-images.githubusercontent.com/79649430/148149556-f3949453-713f-429e-9d94-9ea7f3fc1343.JPG)
 ![image](https://user-images.githubusercontent.com/79649430/148148435-886eab00-fbc9-4f8f-be0c-f372581e0f65.png)
 
 ### Model 3: Convolutional neural network with two Conv2D layers with regularization layers
-
 #### Architecture of Model 3:
 Model 3 is a copy of model 2. To overcome the overfitting caused by model 2, I have added BatchNorm2D layer after each convolutional layers and a Dropout layer. 
 ![image](https://user-images.githubusercontent.com/79649430/148148485-21a5a5d0-22a2-405d-803e-bf2b230574c7.png)
 #### Training Progress of Model 3:
 ![image](https://user-images.githubusercontent.com/79649430/148148524-35a188b2-87eb-445f-96e2-c1849552ee59.png)
 #### Evaluation Results of Model 3:
+![3](https://user-images.githubusercontent.com/79649430/148149595-eff33a4c-b5c3-43ba-8ca6-a4aaa0e69d11.JPG)
 ![image](https://user-images.githubusercontent.com/79649430/148148567-05102e3f-468d-4ec2-9f5b-96e490e4bc0d.png)
 
 ### Model 4: Convolutional neural network with three Conv2D layers and regularization layers
-
 #### Architecture of Model 4:
 Model 4 contains an input layer, three Conv2D layers with MaxPolling2D and BatchNorm2D, two Dense layers, and an output layer. The activation function, optimizer remains same with previous models. I have introduced learning rate scheduling and EarlyStopping for adaptive training.
 ![image](https://user-images.githubusercontent.com/79649430/148148641-4cfcf46d-b633-4731-be18-0a1cecf11e0c.png)
 #### Training Progress of Model 4:
 ![image](https://user-images.githubusercontent.com/79649430/148148688-2ed60912-1008-4d3e-bd78-0f890ff32832.png)
 #### Evaluation Results of Model 4:
+![4](https://user-images.githubusercontent.com/79649430/148149610-ae4baf96-06f6-4a3d-aea2-58fafd6dcfc3.JPG)
 ![image](https://user-images.githubusercontent.com/79649430/148148720-52c8c9e4-2290-4cf0-b56e-9292f3c22e96.png)
 
 ### Model 5: Convolutional neural network with four Conv2D layers and regularization layers
@@ -107,6 +106,7 @@ Model 5 contains an input layer, four Conv2D layers with MaxPolling2D and BatchN
 #### Training Progress of Model 5:
 ![image](https://user-images.githubusercontent.com/79649430/148148804-8ed6782d-25f8-403e-9e84-b0d1b7c12baa.png)
 #### Evaluation Results of Model 5:
+![5](https://user-images.githubusercontent.com/79649430/148149629-47e41768-10c9-4b74-a603-7d8b1d348341.JPG)
 ![image](https://user-images.githubusercontent.com/79649430/148148838-6aa0340e-9db2-4643-9a5d-953e97b7c126.png)
 
 ## Results and Findings
