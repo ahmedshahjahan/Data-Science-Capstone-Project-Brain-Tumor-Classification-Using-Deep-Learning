@@ -111,13 +111,13 @@ Model 5 contains an input layer, four Conv2D layers with MaxPolling2D and BatchN
 #### Training Progress of Model 5:
 ![image](https://user-images.githubusercontent.com/79649430/148148804-8ed6782d-25f8-403e-9e84-b0d1b7c12baa.png)
 #### Evaluation Results of Model 5:
-![5](https://user-images.githubusercontent.com/79649430/148149629-47e41768-10c9-4b74-a603-7d8b1d348341.JPG)
-![image](https://user-images.githubusercontent.com/79649430/148148838-6aa0340e-9db2-4643-9a5d-953e97b7c126.png)
+![model5](https://user-images.githubusercontent.com/79649430/149299707-c3668a2e-6824-4959-8eb1-ebc04f341c8e.JPG)
+![image](https://user-images.githubusercontent.com/79649430/149299526-f0836a82-bb3a-40d2-922a-f2e64622e2a4.png)
 
 ## Results and Findings
 Initially, I have implemented first model (model 1) without using any convolutional neural network and received 83.49% test accuracy and 83% recall value. After that, I have implemented model 2 with two Conv2D layers. Model 2 performed better than first model but had strong overfitting problem since I haven’t added any regularization techniques. I have introduced Batch Normalization and dropout layers to the previous model and implemented model 3 to overcome overfitting. Despite addition of regularization techniques, the evaluation metrics was unchanged, and the model’s training and test accuracy was not improving.
 To overcome underfitting, I have implemented complex convolutional neural networks: model 4 with three Conv2D layers and Model 5 with four Conv2D layers. I have received test accuracy and recall value of 97% form model 4 and there was a fluctuation with training accuracy and validation accuracy also. Finally, the model 5 performed great compared with other models and I have received overall training accuracy, validation accuracy, test accuracy, and the weighted value of precision, recall, and F1-score of 98%. Also, by inspecting confusion matrix of model 5, I have observed that out of 1048 test images there is only 20 misclassifications.
-![image](https://user-images.githubusercontent.com/79649430/149298103-0b60711b-8e51-4814-8ed9-ef8ed1cc336f.png)
+![model comparison](https://user-images.githubusercontent.com/79649430/149299792-79c3c53f-02e8-401d-8605-a52fd6b9a59f.JPG)
 
 ## Conclusion
-Despite lack of proper computational resources, I have implemented, trained, and tested all my models and obtained good evaluation results. The optimum model (model 5) showed training accuracy, validation accuracy, test accuracy, and the weighted value of precision, recall, and F1-score of 98% and contained only 23 misclassifications out of 1048 test images.
+Despite lack of proper computational resources, I have implemented, trained, and tested all my models and obtained good evaluation results. The optimum model (model 5) showed training accuracy, validation accuracy, test accuracy, and the weighted value of precision, recall, and F1-score of 98% and contained only 20 misclassifications out of 1048 test images.
